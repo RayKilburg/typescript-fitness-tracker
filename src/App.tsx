@@ -1,5 +1,6 @@
 import React, { FC, ChangeEvent, useState } from 'react';
 import './App.css';
+import FitnessTask from './Components/FitnessTask';
 import {IFit} from './interfaces'
 
 const App: FC = () => {
@@ -31,6 +32,13 @@ const App: FC = () => {
     console.log(fitnessList);
   }
 
+  // remove workout from list
+  const removeWorkout = (workoutToDelete: string): void => {
+    setFitness(fitnessList.filter((machine) => {
+      return machine.machineName != workoutToDelete
+    }))
+  }
+
   return (
     <div className="App">
       <div className="header">
@@ -41,7 +49,11 @@ const App: FC = () => {
         </div>
         <button onClick={addWorkout}>Add Workout 💪</button>
       </div>
-      <div className="fitnessList"></div>
+      <div className="fitnessList">
+        {fitnessList.map((machine: IFit, key: number) => {
+          return <FitnessTask key={key} machine={machine} removeWorkout={removeWorkout}/>;
+        })}
+      </div>
     </div>
   );
 }

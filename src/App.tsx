@@ -44,10 +44,10 @@ const App: FC = () => {
       <div className="header">
         <div className="inputContainer">
           <input type="text" placeholder="Machine/Exercise..." name="machine" value={machine} onChange={handleChange} />
-          <input type="text" placeholder="Time..." name="time" value={time} onChange={handleChange} />
+          <input type="text" placeholder="Time/Weight..." name="time" value={time} onChange={handleChange} />
           <input type="text" placeholder="Distance/Reps..." name="distance" value={distance} onChange={handleChange} />
         </div>
-        <button onClick={addWorkout}>Add Workout 💪</button>
+        <button onClick={addWorkout}> 💪</button>
       </div>
       <div className="fitnessList">
         {fitnessList.map((machine: IFit, key: number) => {

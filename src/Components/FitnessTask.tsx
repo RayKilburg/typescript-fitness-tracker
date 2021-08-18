@@ -16,7 +16,7 @@ const FitnessTask = ({ machine, removeWorkout }: Props) => {
                 </div>
                 <button onClick={() => {
                     removeWorkout(machine.machineName)
-                }}>X</button>
+                }}>❌</button>
         </div>
     )
 }

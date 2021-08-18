@@ -5,6 +5,7 @@
 ## Fitness Tracker
 
 - This app was built with React and TypeScript
+- Future plans are to connect to MongoDB or utilize local storage
 
 <br>
 <img src="./public/gym.png" alt="drawing" width="200" height="200"/>

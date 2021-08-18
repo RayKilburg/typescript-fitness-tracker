@@ -7,7 +7,7 @@
 - This app was built with React and TypeScript
 
 <br>
-<img src="./public/gym.png" alt="drawing" width="200" height="240"/>
+<img src="./public/gym.png" alt="drawing" width="200" height="200"/>
 
 ## Usage
 

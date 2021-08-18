@@ -4,6 +4,7 @@
 
 ## Fitness Tracker
 
+- Keep track and store past workouts to watch your progress in the gym
 - This app was built with React and TypeScript
 - Future plans are to connect to MongoDB or utilize local storage
 

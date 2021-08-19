@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
 .App {
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -36,7 +38,7 @@ body {
   padding-left: 10px;
   margin-right: 8px;
   margin-bottom: 8px;
-  font-size: 17px;
+  font-size: 18px;
   border: 1px solid rgb(118, 121, 115);
   /* border: 1px solid red; */
   background-image: linear-gradient(
@@ -47,6 +49,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   outline: none;
   color: rgb(183, 195, 169);
+  font-family: "Poppins", sans-serif;
 }
 
 .header button {
@@ -105,6 +108,7 @@ body {
   font-size: 18px;
   background-color: rgb(33, 38, 45);
   color: rgb(88, 166, 255);
+  font-family: "Poppins", sans-serif;
 }
 
 .task button {
